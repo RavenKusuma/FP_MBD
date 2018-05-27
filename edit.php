@@ -39,8 +39,8 @@ http://www.templatemo.com/tm-475-holiday
 	  				<nav class="tm-nav">
 						<ul>
 							<li><a href="admin_home.php">Home</a></li>
-							<li><a href="Karyawan.php">Karyawan</a></li>
-							<li><a href="booking.php" class="active">Booking</a></li>
+							<li><a href="Karyawan.php" class="active">Karyawan</a></li>
+							<li><a href="booking.php">Booking</a></li>
 							<li><a href="logout.php">Logout</a></li>
 						</ul>
 					</nav>		
@@ -58,7 +58,7 @@ http://www.templatemo.com/tm-475-holiday
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">ADMIN <span class="tm-yellow-text">PAGE</span></h1>
 					<p class="tm-banner-subtitle">THIS IS FOR ALL DATA</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>		
+					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 				<img src="img/banner-1.jpg" alt="Image" />	
 		    </li>
@@ -74,7 +74,7 @@ http://www.templatemo.com/tm-475-holiday
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">ADMIN <span class="tm-yellow-text">PAGE</span></h1>
 					<p class="tm-banner-subtitle">THIS IS FOR ALL DATA</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>		
+					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 		      <img src="img/banner-3.jpg" alt="Image" />
 		    </li>
@@ -82,8 +82,35 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-	
-	
+	<div class ="content">
+		<h1>
+				FORMULIR EDIT KARYAWAN
+		</h1>
+		<form action="proses_edit.php" method="POST">
+
+		<fieldset>
+		<input type="hidden" name="id" value="<?php echo $_GET['id'];?>"/>
+
+		<p>
+			<label for="nama_pegawai">Nama: </label>
+			<input type="text" name="nama_pegawai" placeholder="nama game" />
+		</p>
+		<p>
+			<label for="alamat">Alamat: </label>
+			<input type="date" name="alamat">
+		</p>
+		<p>
+			<label for="telp_pegawai">TLP Pegawai: </label>
+			<input type="text" name="telp_pegawai" placeholder="genre" />
+		</p>
+		<p>
+			<input type="submit" value="Simpan" name="simpan" />
+		</p>
+
+		</fieldset>
+		</form>
+	</div>
+
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">

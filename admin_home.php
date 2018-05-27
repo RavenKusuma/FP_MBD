@@ -56,24 +56,24 @@ http://www.templatemo.com/tm-475-holiday
 		  <ul class="slides">
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-					<p class="tm-banner-subtitle">For Your Holidays</p>
+					<h1 class="tm-banner-title">ADMIN <span class="tm-yellow-text">PAGE</span></h1>
+					<p class="tm-banner-subtitle">THIS IS FOR ALL DATA</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 				<img src="img/banner-1.jpg" alt="Image" />	
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-					<p class="tm-banner-subtitle">Wonderful Destinations</p>
+					<h1 class="tm-banner-title">ADMIN <span class="tm-yellow-text">PAGE</span></h1>
+					<p class="tm-banner-subtitle">THIS IS FOR ALL DATA</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 		      <img src="img/banner-2.jpg" alt="Image" />
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-					<p class="tm-banner-subtitle">Comfortable Destination</p>
+					<h1 class="tm-banner-title">ADMIN <span class="tm-yellow-text">PAGE</span></h1>
+					<p class="tm-banner-subtitle">THIS IS FOR ALL DATA</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 		      <img src="img/banner-3.jpg" alt="Image" />
@@ -81,5 +81,111 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
+
+		<footer class="tm-black-bg">
+		<div class="container">
+			<div class="row">
+				<p class="tm-copyright-text">Temukan Hotel yang sesuai dengan dirimu
+                
+                 hanya di <a rel="nofollow" href="http://www.templatemo.com" target="_parent">Holiday</a></p>
+			</div>
+		</div>		
+	</footer>
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+  	<script type="text/javascript" src="js/moment.js"></script>							<!-- moment.js -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<!--
+	<script src="js/froogaloop.js"></script>
+	<script src="js/jquery.fitvid.js"></script>
+-->
+   	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
+	<script>
+		// HTML document is loaded. DOM is ready.
+		$(function() {
+
+			$('#hotelCarTabs a').click(function (e) {
+			  e.preventDefault()
+			  $(this).tab('show')
+			})
+
+        	$('.date').datetimepicker({
+            	format: 'MM/DD/YYYY'
+            });
+            $('.date-time').datetimepicker();
+
+			// https://css-tricks.com/snippets/jquery/smooth-scrolling/
+		  	$('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+		  	});
+		});
+		
+		// Load Flexslider when everything is loaded.
+		$(window).load(function() {	  		
+			// Vimeo API nonsense
+
+/*
+			  var player = document.getElementById('player_1');
+			  $f(player).addEvent('ready', ready);
+			 
+			  function addEvent(element, eventName, callback) {
+			    if (element.addEventListener) {
+			      element.addEventListener(eventName, callback, false)
+			    } else {
+			      element.attachEvent(eventName, callback, false);
+			    }
+			  }
+			 
+			  function ready(player_id) {
+			    var froogaloop = $f(player_id);
+			    froogaloop.addEvent('play', function(data) {
+			      $('.flexslider').flexslider("pause");
+			    });
+			    froogaloop.addEvent('pause', function(data) {
+			      $('.flexslider').flexslider("play");
+			    });
+			  }
+*/
+
+			 
+			 
+			  // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+/*
+
+			  $(".flexslider")
+			    .fitVids()
+			    .flexslider({
+			      animation: "slide",
+			      useCSS: false,
+			      animationLoop: false,
+			      smoothHeight: true,
+			      controlNav: false,
+			      before: function(slider){
+			        $f(player).api('pause');
+			      }
+			  });
+*/
+
+
+			  
+
+//	For images only
+		    $('.flexslider').flexslider({
+			    controlNav: false
+		    });
+
+
+	  	});
+	</script>
 </body>
 </html>
