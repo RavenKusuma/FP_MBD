@@ -1,3 +1,5 @@
+<?php include("server.php"); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,6 +83,45 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
+
+		<div class="content">
+		<h1>
+			ISI LIST KARYAWAN
+		</h1>
+		<table border="1">
+		<thead>
+		<tr>
+			<th>Nama_pegawai</th>
+			<th>Alamat</th>
+			<th>Telp</th>
+		</tr>
+		</thead>
+		<tbody>
+
+		<?php
+		$sqli = "SELECT * FROM pegawai";
+		$query = mysqli_query($db, $sqli);
+
+		while($pegawai = mysqli_fetch_array($query)){
+			echo "<tr>";
+
+			echo "<td>".$pegawai['nama_pegawai']."</td>";
+			echo "<td>".$pegawai['alamat']."</td>";
+			echo "<td>".$pegawai['tlp_pegawai']."</td>";
+
+			echo "<td>";
+			echo "<a href='form_edit.php?id=".$pegawai['id_pegawai']."'>Edit</a> | ";
+			echo "<a href='hapus.php?id=".$pegawai['id_pegawai']."'>Hapus</a>";
+			echo "</td>";
+
+			echo "</tr>";
+		}
+		?>
+		</tbody>
+		</table>
+
+	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	</div>
 
 		<footer class="tm-black-bg">
 		<div class="container">

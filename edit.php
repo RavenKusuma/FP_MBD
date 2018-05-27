@@ -93,15 +93,15 @@ http://www.templatemo.com/tm-475-holiday
 
 		<p>
 			<label for="nama_pegawai">Nama: </label>
-			<input type="text" name="nama_pegawai" placeholder="nama game" />
+			<input type="text" name="nama_pegawai" placeholder="nama Pegawai" />
 		</p>
 		<p>
 			<label for="alamat">Alamat: </label>
-			<input type="date" name="alamat">
+			<input type="text" name="alamat" placeholder="alamat pegawai">
 		</p>
 		<p>
 			<label for="telp_pegawai">TLP Pegawai: </label>
-			<input type="text" name="telp_pegawai" placeholder="genre" />
+			<input type="text" name="telp_pegawai" placeholder="tlp_pegawai" />
 		</p>
 		<p>
 			<input type="submit" value="Simpan" name="simpan" />
