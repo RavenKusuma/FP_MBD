@@ -1,3 +1,19 @@
+<!-- <?php 
+	session_start(); 
+
+	if (!isset($_SESSION['username'])) {
+		$_SESSION['msg'] = "You must log in first";
+		header('location: login.php');
+	}
+
+	if (isset($_GET['logout'])) {
+		session_destroy();
+		unset($_SESSION['username']);
+		header("location: login.php");
+	}
+
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,10 +54,10 @@ http://www.templatemo.com/tm-475-holiday
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="index.html" class="active">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="tours.html">Our Tours</a></li>
-							<li><a href="login.html">Login</a></li>
+							<li><a href="index.php" class="active">Home</a></li>
+							<li><a href="about.php">About</a></li>
+							<li><a href="tours.php">Our Tours</a></li>
+							<li><a href="login.php">Login</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
@@ -128,6 +144,7 @@ http://www.templatemo.com/tm-475-holiday
 							   		</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
 						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+
 						            </div>  
 								</form>
 							</div>

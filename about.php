@@ -38,10 +38,10 @@ http://www.templatemo.com/tm-475-holiday
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html" class="active">About</a></li>
-							<li><a href="tours.html">Our Tours</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php" class="active">About</a></li>
+							<li><a href="tours.php">Our Tours</a></li>
+							<li><a href="contact.php">Contact</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
