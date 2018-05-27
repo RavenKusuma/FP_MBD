@@ -56,8 +56,8 @@ http://www.templatemo.com/tm-475-holiday
 						<ul>
 							<li><a href="index.php" class="active">Home</a></li>
 							<li><a href="about.php">About</a></li>
-							<li><a href="tours.php">Our Tours</a></li>
-							<li><a href="login.php">Login</a></li>
+							<li><a href="profil.php">Profil</a></li>
+							<li><a href="logout.php">Logout</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
@@ -117,17 +117,27 @@ http://www.templatemo.com/tm-475-holiday
 								<form action="#" method="post" class="hotel-search-form">
 									<div class="tm-form-inner">
 										<div class="form-group">
-							            	 <select class="form-control">
+							            	 <select class="form-control" name="hotel">
 							            	 	<option value="">-- Select Hotel -- </option>
-							            	 	<option value="shangrila">Shangri-La</option>
-												<option value="chatrium">Chatrium</option>
-												<option value="fourseasons">Four Seasons</option>
-												<option value="hilton">Hilton</option>
+							            	 	<option value="shangrila">Fantasy Resort</option>
+												<option value="chatrium">Voyage Hotels</option>
+												<option value="fourseasons">Sanctuary Hotels</option>
+												<option value="hilton">Azure Meadows Resort</option>
+											</select> 
+							          	</div>
+							          	<div class="form-group">
+							            	 <select class="form-control" name="list_kamar">
+							            	 	<option value="">-- Select Kamar -- </option>
+							            	 	<option value="Bintang_5">Bintang 5</option>
+												<option value="Bintang_4">Bintang 4</option>
+												<option value="Bintang_3">Bintang 3</option>
+												<option value="Bintang_2">Bintang 2</option>
+												<option value="Bintang_1">Bintang 1</option>
 											</select> 
 							          	</div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker1'>
-							                    <input type='text' class="form-control" placeholder="Check-in Date" />
+							                    <input type='text' class="form-control" placeholder="Check-in Date" name="jadwal_checkin" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
@@ -135,7 +145,7 @@ http://www.templatemo.com/tm-475-holiday
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='text' class="form-control" placeholder="Check-out Date" />
+							                    <input type='text' class="form-control" placeholder="Check-out Date" name="jadwal_checkout" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
