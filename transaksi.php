@@ -81,7 +81,5 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
-
-	<a href="transaksi.php" class="tm-banner-link">TRANSAKSI</a>	
 </body>
 </html>
