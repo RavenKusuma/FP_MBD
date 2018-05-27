@@ -93,6 +93,9 @@
 	if (isset($_POST['submit'])) {
 		$username = mysqli_real_escape_string($db, $_POST['username']);
 		$password = mysqli_real_escape_string($db, $_POST['password']);
+		$checkindate = mysqli_real_escape_string($db, $_POST['password']);
+		$checkoutdate = mysqli_real_escape_string($db, $_POST['password']);
+
 
 		if (empty($username)) {
 			array_push($errors, "Username is required");
