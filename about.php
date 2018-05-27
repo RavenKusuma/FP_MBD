@@ -56,7 +56,7 @@ http://www.templatemo.com/tm-475-holiday
 		  <ul class="slides">
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title"><span class="tm-yellow-text">Tour</span> Packages</h1>
+					<h1 class="tm-banner-title"><span class="tm-yellow-text">Your</span> Rooms</h1>
 					<p class="tm-banner-subtitle">For Your Vacations</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
@@ -64,7 +64,7 @@ http://www.templatemo.com/tm-475-holiday
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
+					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">Your</span> Rooms</h1>
 					<p class="tm-banner-subtitle">Wonderful Destinations</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
@@ -72,8 +72,8 @@ http://www.templatemo.com/tm-475-holiday
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
-					<p class="tm-banner-subtitle">Velit Auctor</p>
+					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">Your</span> Rooms</h1>
+					<p class="tm-banner-subtitle">Comfortable Place</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 		      <img src="img/banner-1.jpg" />
@@ -92,52 +92,8 @@ http://www.templatemo.com/tm-475-holiday
 			      <img src="img/about-1.jpg" alt="image" />
 			      <div class="flex-caption">
 			      	<h2 class="slider-title">Welcome To Holiday</h2>
-			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor</h3>
-			      	<p class="slider-description">Holiday is free Bootstrap v3.3.5 responsive template for tour and travel websites. You can download and use this layout for any purpose. You do not need to provide a credit link to us. If you have any question, feel free to <a href="http://www.facebook.com/templatemo" target="_parent">contact us</a>. <br><br>
-                    Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum.</p>
-			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
-			      	</div>
-			      </div>			      
-			    </li>
-			    <li>
-			      <img src="img/about-1.jpg" alt="image" />
-			      <div class="flex-caption">
-			      	<h2 class="slider-title">Thank you for choosing us!</h2>
-			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
-			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br><br>
-                    Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
-			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
-			      	</div>
-			      </div>			      
-			    </li>
-			    <li>
-			      <img src="img/about-1.jpg" alt="image" />
-			      <div class="flex-caption">
-			      	<h2 class="slider-title">More Programs to come</h2>
-			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
-			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
-			      	<div class="slider-social">
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-			      		<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
-			      	</div>
-			      </div>			      
-			    </li>
-			    <li>
-			      <img src="img/about-1.jpg" alt="image" />
-			      <div class="flex-caption">
-			      	<h2 class="slider-title">Tour and Travel</h2>
-			      	<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
-			      	<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+			      	<h3 class="slider-subtitle">Disini kami mencoba melayani kebutuhan anda dalam mencari tempat tidur ketika sedang berpergian</h3>
+			      	<p class="slider-description">Dengan aplikasi web ini anda bisa dengan mudah mencari kamar sebelum anda bepergian ke suatu tempat sehingga anda tidak perlu khawatir untuk kehabisan kamar ketika anda bepergian kemana saja.</p>
 			      	<div class="slider-social">
 			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
 			      		<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
@@ -150,68 +106,66 @@ http://www.templatemo.com/tm-475-holiday
 			</div>
 		</div>
 	
-		<div class="section-margin-top about-section">
+		<div class="section-margin-top about-section" id="kamar">
 			<div class="row">				
 				<div class="tm-section-header">
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Who We Are</h2></div>
+					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Kamar Kita</h2></div>
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="tm-about-box-1">
-						<a href="#"><img src="img/about-4.jpg" alt="img" class="tm-about-box-1-img"></a>
-						<h3 class="tm-about-box-1-title">Thomas <span>( Founder )</span></h3>
-						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
-						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+					<div class="tm-home-box-2">						
+						<img src="img/kamar1.jpg" alt="image" class="img-responsive">
+						<h3>Bintang 5</h3>
+						<div class="tm-home-box-2-container">
+							<a href="#kamar" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a href="#kamar" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Rp.5.000.000/hari</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="tm-about-box-1">
-						<a href="#"><img src="img/about-5.jpg" alt="img" class="tm-about-box-1-img"></a>
-						<h3 class="tm-about-box-1-title">Keith <span>( Co-Founder )</span></h3>
-						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
-						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+					<div class="tm-home-box-2">						
+					    <img src="img/kamar2.jpg" alt="image" class="img-responsive">
+						<h3>Bintang 4</h3>
+						<div class="tm-home-box-2-container">
+							<a href="#kamar" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a href="#kamar" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Rp.3.500.000/hari</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="tm-about-box-1">
-						<a href="#"><img src="img/about-6.jpg" alt="img" class="tm-about-box-1-img"></a>
-						<h3 class="tm-about-box-1-title">John <span>( General Manager )</span></h3>
-						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
-						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+					<div class="tm-home-box-2">						
+					    <img src="img/kamar3.jpg" alt="image" class="img-responsive">
+						<h3>Bintang 3</h3>
+						<div class="tm-home-box-2-container">
+							<a href="#kamar" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a href="#kamar" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Rp.2.000.000/hari</span></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<div class="tm-about-box-1">
-						<a href="#"><img src="img/about-7.jpg" alt="img" class="tm-about-box-1-img"></a>
-						<h3 class="tm-about-box-1-title">Smith <span>( Manager )</span></h3>
-						<p class="margin-bottom-15 gray-text">Proin gravida nibhvell aliquet. Aenean sollicitudin bibum auctor nisi elit.</p>
-						<div class="gray-text">
-							<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
-							<a href="#" class="tm-social-icon"><i class="fa fa-google-plus"></i></a>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+					<div class="tm-home-box-2 tm-home-box-2-right">						
+					    <img src="img/kamar4.jpg" alt="image" class="img-responsive">
+						<h3>Bintang 2</h3>
+						<div class="tm-home-box-2-container">
+							<a href="#kamar" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a href="#kamar" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Rp.1.000.000/hari</span></a>
 						</div>
 					</div>
 				</div>
-			</div>		
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
+					<div class="tm-home-box-2 tm-home-box-2-right">						
+					    <img src="img/kamar5.jpg" alt="image" class="img-responsive">
+						<h3>Bintang 1</h3>
+						<div class="tm-home-box-2-container">
+							<a href="#kamar" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
+							<a href="#kamar" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Rp.500.000/hari</span></a>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</div>
 	</section>		
 	
@@ -221,7 +175,7 @@ http://www.templatemo.com/tm-475-holiday
 			<div class="row">
 				<div class="tm-section-header section-margin-top">
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">What we do</h2></div>
+					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">Pelayanan Kami ?</h2></div>
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
 				</div>				
 			</div>
@@ -230,35 +184,33 @@ http://www.templatemo.com/tm-475-holiday
 				<div class="col-lg-12">
 					<div class="tm-what-we-do-right">
 						<div class="tm-about-box-2 margin-bottom-30">
-							<img src="img/about-2.jpg" alt="image" class="tm-about-box-2-img">
+							<img src="img/sarapan.png" alt="image" class="tm-about-box-2-img">
 							<div class="tm-about-box-2-text">
-								<h3 class="tm-about-box-2-title">Gravida Nibh Vel Velit Auctor Aliquet Etiam</h3>
-				                <p class="tm-about-box-2-description gray-text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
-				                <p class="tm-about-box-2-footer">Mauris In Erat Justo</p>	
+								<h3 class="tm-about-box-2-title">Sarapan</h3>
+				                <p class="tm-about-box-2-description gray-text">Jadi disini kami menyediakan sarpan pagi gratis untuk seluruh pengunjung hotel yang telah bekerja sama dengan kami</p>
 							</div>		                
 						</div>
 						<div class="tm-about-box-2">
-							<img src="img/about-3.jpg" alt="image" class="tm-about-box-2-img">
+							<img src="img/Swimming.jpg" alt="image" class="tm-about-box-2-img">
 							<div class="tm-about-box-2-text">
-								<h3 class="tm-about-box-2-title">Sed Non Mauris Vitae Erat Con Ruat Nostra</h3>
-				                <p class="tm-about-box-2-description gray-text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis.</p>
-				                <p class="tm-about-box-2-footer">Sednon Mauris Vitae</p>	
+								<h3 class="tm-about-box-2-title">Swimming Pool</h3>
+				                <p class="tm-about-box-2-description gray-text">Kami juga menyediakan sebuah kolam renang yang mana kolam tersebut bisa digunakan oleh seluruh pengguna hotel</p>
 							</div>		                
 						</div>
 					</div>
 					<div class="tm-testimonials-box">
-						<h3 class="tm-testimonials-title">Testimonials</h3>
+						<h3 class="tm-testimonials-title">Testimoni</h3>
 						<div class="tm-testimonials-content">
 							<div class="tm-testimonial">
-								<p>"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum."</p>
+								<p>"Pelayanannya sangat bagus dan ramah-ramah"</p>
 		                		<strong class="text-uppercase">John Smith</strong>	
 							</div>
 							<div class="tm-testimonial">
-								<p>"Nisi elit consequat ipsum, nec sagittis sem nibh id elit duis sed odio sit amet nibh."</p>
+								<p>"Makanannya rasanya enak sekali jadi mengingatkan akan masakan rumahan"</p>
 			                	<strong class="text-uppercase">Lorens</strong>		
 							</div>
 	       					<div class="tm-testimonial">
-	       						<p>"Rulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio."<p>
+	       						<p>"Kamar hotelnya kurang bersih sehingga kurang nyaman dipakai"<p>
 	                			<strong class="text-uppercase">Robert</strong>
 	       					</div>                	
 						</div>
@@ -270,9 +222,9 @@ http://www.templatemo.com/tm-475-holiday
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2084 Your Company Name 
+				<p class="tm-copyright-text">Temukan Hotel yang sesuai dengan dirimu
                 
-                | Designed by <a rel="nofollow" href="http://www.templatemo.com" target="_parent">templatemo</a></p>
+                 hanya di <a rel="nofollow" href="http://www.templatemo.com" target="_parent">Holiday</a></p>
 			</div>
 		</div>		
 	</footer>

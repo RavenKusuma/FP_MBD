@@ -126,6 +126,16 @@ http://www.templatemo.com/tm-475-holiday
 											</select> 
 							          	</div>
 							          	<div class="form-group">
+							            	 <select class="form-control">
+							            	 	<option value="">-- Select Kamar -- </option>
+							            	 	<option value="Bintang_5">Bintang 5</option>
+												<option value="Bintang_4">Bintang 4</option>
+												<option value="Bintang_3">Bintang 3</option>
+												<option value="Bintang_2">Bintang 2</option>
+												<option value="Bintang_1">Bintang 1</option>
+											</select> 
+							          	</div>
+							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker1'>
 							                    <input type='text' class="form-control" placeholder="Check-in Date" />
 							                    <span class="input-group-addon">
