@@ -99,19 +99,21 @@ http://www.templatemo.com/tm-475-holiday
 		<tbody>
 
 		<?php
-		$sqli = "SELECT * FROM pegawai";
+		$sqli = "SELECT * FROM pegawai_hotel";
 		$query = mysqli_query($db, $sqli);
+
+
 
 		while($pegawai = mysqli_fetch_array($query)){
 			echo "<tr>";
 
-			echo "<td>".$pegawai['nama_pegawai']."</td>";
-			echo "<td>".$pegawai['alamat']."</td>";
-			echo "<td>".$pegawai['tlp_pegawai']."</td>";
+			echo "<td>".$pegawai['ID_PEGAWAI']."</td>";
+			echo "<td>".$pegawai['NAMA_PEGAWAI']."</td>";
+			echo "<td>".$pegawai['ID_HOTEL']."</td>";
+			echo "<td>".$pegawai['NAMA_HOTEL']."</td>";
 
 			echo "<td>";
-			echo "<a href='form_edit.php?id=".$pegawai['id_pegawai']."'>Edit</a> | ";
-			echo "<a href='hapus.php?id=".$pegawai['id_pegawai']."'>Hapus</a>";
+			echo "<a href='hapus.php?id=".$pegawai['ID_PEGAWAI']."'>Hapus</a>";
 			echo "</td>";
 
 			echo "</tr>";

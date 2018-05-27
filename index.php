@@ -1,5 +1,6 @@
 <?php 
-	session_start(); 
+
+	include('server.php');
 
 	if (!isset($_SESSION['username'])) {
 		$_SESSION['msg'] = "You must log in first";
@@ -119,20 +120,20 @@ http://www.templatemo.com/tm-475-holiday
 										<div class="form-group">
 							            	 <select class="form-control" name="hotel">
 							            	 	<option value="">-- Select Hotel -- </option>
-							            	 	<option value="shangrila">Fantasy Resort</option>
-												<option value="chatrium">Voyage Hotels</option>
-												<option value="fourseasons">Sanctuary Hotels</option>
-												<option value="hilton">Azure Meadows Resort</option>
+							            	 	<option value="H001">Fantasy Resort</option>
+												<option value="H002">Voyage Hotels</option>
+												<option value="H003">Sanctuary Hotels</option>
+												<option value="H004">Azure Meadows Resort</option>
 											</select> 
 							          	</div>
 							          	<div class="form-group">
 							            	 <select class="form-control" name="list_kamar">
 							            	 	<option value="">-- Select Kamar -- </option>
-							            	 	<option value="Bintang_5">Bintang 5</option>
-												<option value="Bintang_4">Bintang 4</option>
-												<option value="Bintang_3">Bintang 3</option>
-												<option value="Bintang_2">Bintang 2</option>
-												<option value="Bintang_1">Bintang 1</option>
+							            	 	<option value="T001">Bintang 5</option>
+												<option value="T002">Bintang 4</option>
+												<option value="T003">Bintang 3</option>
+												<option value="T004">Bintang 2</option>
+												<option value="T005">Bintang 1</option>
 											</select> 
 							          	</div>
 							          	<div class="form-group">
@@ -153,7 +154,7 @@ http://www.templatemo.com/tm-475-holiday
 							            </div>
 							   		</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+						            	<button type="submit" name="submit_booking" class="tm-yellow-btn">Check Now</button>
 
 						            </div>  
 								</form>
