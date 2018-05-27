@@ -16,7 +16,7 @@
 
 		<div class="input-group">
 			<label>Username</label>
-			<input type="text" name="username" value="<?php echo $username; ?>">
+			<input type="text" name="username" placeholder="Username">
 		</div>
 		<div class="input-group">
 			<label>Password</label>
@@ -28,19 +28,19 @@
 		</div>
 		<div class="input-group">
 			<label>Nama</label>
-			<input type="text" name="nama" value="<?php echo $nama; ?>">
+			<input type="text" name="nama" placeholder="Nama">
 		</div>
 		<div class="input-group">
 			<label>Alamat</label>
-			<input type="text" name="alamat" value="<?php echo $alamat; ?>">
+			<input type="text" name="alamat" placeholder="Alamat"">
 		</div>
 		<div class="input-group">
 			<label>NO_TELP</label>
-			<input type="text" name="no_tlp" value="<?php echo $no_tlp; ?>">
+			<input type="text" name="no_tlp" placeholder="NO_TELP">
 		</div>
 		<div class="input-group">
 			<label>Tanggal_lahir</label>
-			<input type="date" name="tgl_lahir" value="<?php echo $tgl_lahir; ?>">
+			<input type="date" name="tgl_lahir" placeholder="Tanggal_lahir"">
 		</div>
 		<div class="input-group">
 			<button type="submit" class="btn" name="reg_user">Register</button>
