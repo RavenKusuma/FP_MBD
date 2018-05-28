@@ -64,7 +64,7 @@
 			array_push($errors, "Password is required");
 		}
 
-		if ($username = 'admin')
+		if ($username == 'admin')
 		{
 			$_SESSION['username'] = 'admin';
 			header('location: admin_home.php');
