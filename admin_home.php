@@ -81,7 +81,42 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
+	<div class="content">
+		<h1>
+			JOIN
+		</h1>
+		<table border="1">
+		<thead>
+		<tr>
+			<th>NAMA_PELANGGAN</th>
+			<th>NAMA_HOTEL</th>
+			<th>ALAMAT_HOTEL</th>
+		</tr>
+		</thead>
+		<tbody>
 
+		<?php
+		$sqli = "SELECT pelanggan.`NAMA_PELANGGAN`, hotels.`NAMA_HOTEL`, hotels.`ALAMAT_HOTEL`
+FROM pelanggan JOIN bookings ON pelanggan.`ID_PELANGGAN` = bookings.`ID_PELANGGAN` AND DAY(bookings.`TGL_CHECKIN`) = 25 AND MONTH(bookings.`TGL_CHECKIN`) = 12
+JOIN pegawai ON bookings.`ID_PEGAWAI` = pegawai.`ID_PEGAWAI`
+JOIN hotels ON pegawai.`ID_HOTEL` = hotels.`ID_HOTEL`;";
+		$query = mysqli_query($db, $sqli);
+
+		while($join = mysqli_fetch_array($query)){
+			echo "<tr>";
+
+			echo "<td>".$join['NAMA_PELANGGAN']."</td>";
+			echo "<td>".$join['NAMA_HOTEL']."</td>";
+			echo "<td>".$join['ALAMAT_HOTEL']."</td>";
+
+			echo "</tr>";
+		}
+		?>
+		</tbody>
+		</table>
+
+	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	</div>
 		<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
