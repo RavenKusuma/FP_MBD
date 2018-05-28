@@ -86,56 +86,10 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
-	
-	<div class="content">
-		<h1>
-			List Booking
-		</h1>
-		<table border="1">
-		<thead>
-		<tr>
-			<th>ID Pelanggan</th>
-			<th>Nama Pelanggan</th>
-			<th>ID Booking</th>
-			<th>NO Kamar</th>
-			<th>Tgl Checkin</th>
-			<th>Tgl Checkout</th>
-			<th>Status</th>
-		</tr>
-		</thead>
-		<tbody>
-
-		<?php
-		$sqli = "SELECT * FROM pelanggan_booking";
-		$query = mysqli_query($db, $sqli);
-
-
-
-		while($pegawai = mysqli_fetch_array($query)){
-			echo "<tr>";
-
-			echo "<td>".$pegawai['ID_PELANGGAN']."</td>";
-			echo "<td>".$pegawai['NAMA_PELANGGAN']."</td>";
-			echo "<td>".$pegawai['ID_BOOKING']."</td>";
-			echo "<td>".$pegawai['NO_KAMAR']."</td>";
-			echo "<td>".$pegawai['TGL_CHECKIN']."</td>";
-			echo "<td>".$pegawai['TGL_CHECKOUT']."</td>";
-			echo "<td>".$pegawai['STATUS_BOOKING']."</td>";
-
-			echo "</tr>";
-		}
-		?>
-		</tbody>
-		</table>
-
-	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
-	</div>
-
 	<div>
-		<input type="text" name="jumlah_kamar" placeholder="jumlah_kamar">
+		<input type="text" name="jumlah_booking" placeholder="jumlah_booking">
 		<a href="jumlah_booking.php" class="tm-banner-link">CEK JUMLAH BOOKING</a>
 	</div>
-	<a href="transaksi.php" class="tm-banner-link">TRANSAKSI</a>
 
 </body>
 </html>
