@@ -82,8 +82,56 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-	
-	
+		<div class="content">
+		<h1>
+			ISI LIST BOOKING
+		</h1>
+		<table border="1">
+		<thead>
+		<tr>
+			<th>NO_BOOKING</th>
+			<th>ID_BOOKING</th>
+			<th>NO_KAMAR</th>
+			<th>ID_PEGAWAI</th>
+			<th>ID_PELANGGAN</th>
+			<th>TGL_CHECKIN</th>
+			<th>TGL_CHECKOUT</th>
+			<th>STATUS_BOOKING</th>
+		</tr>
+		</thead>
+		<tbody>
+
+		<?php
+		$sqli = "SELECT * FROM BOOKINGS";
+		$query = mysqli_query($db, $sqli);
+
+
+
+		while($booking = mysqli_fetch_array($query)){
+			echo "<tr>";
+
+			echo "<td>".$booking['NO_BOOKING']."</td>";
+			echo "<td>".$booking['ID_BOOKING']."</td>";
+			echo "<td>".$booking['NO_KAMAR]."</td>";
+			echo "<td>".$booking['ID_PEGAWAI']."</td>";
+			echo "<td>".$booking['ID_PELANGGAN']."</td>";
+			echo "<td>".$booking['TGL_CHECKIN']."</td>";
+			echo "<td>".$booking['TGL_CHECKOUT']."</td>";
+			echo "<td>".$booking['STATUS_BOOKING']."</td>";
+			echo "<td>";
+
+			echo "<a href='booking.php?id=".$booking['ID_BOOKING']."'>CHECKOUT</a>";
+			echo "</td>";
+
+			echo "</tr>";
+		}
+		?>
+		</tbody>
+		</table>
+
+	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	</div>	
+
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
