@@ -1,3 +1,8 @@
+<?php 
+
+	include('server.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,5 +86,42 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
+
+	<div class="list_hotel" style="margin: auto;">
+		<h1>
+			Kamar Kosong
+		</h1>
+		<table border="1">
+		<thead>
+		<tr>
+			<th>Nama Hotel</th>
+			<th>Tipe Kamar</th>
+			<th>Jumlah Kamar Kosong</th>
+		</tr>
+		</thead>
+		<tbody>
+
+		<?php
+		$sqli = "SELECT hotels.`NAMA_HOTEL`, type_kamar.`DESKRIPSI_TYPE_KAMAR`, kamar_kosong.`JUMLAH_KAMAR_KOSONG`
+				FROM hotels JOIN kamar_kosong ON hotels.`ID_HOTEL` = kamar_kosong.`ID_HOTEL` AND kamar_kosong.`JUMLAH_KAMAR_KOSONG` > 0
+				JOIN type_kamar ON kamar_kosong.`ID_TYPE_KAMAR` = type_kamar.`ID_TYPE_KAMAR`;";
+		$query = mysqli_query($db, $sqli);
+
+		while($hotels = mysqli_fetch_array($query)){
+			#print_r($hotels);
+			echo "<tr>";
+
+			echo "<td>".$hotels['NAMA_HOTEL']."</td>";
+			echo "<td>".$hotels['DESKRIPSI_TYPE_KAMAR']."</td>";
+			echo "<td>".$hotels['JUMLAH_KAMAR_KOSONG']."</td>";
+
+			echo "</tr>";
+		}
+		?>
+		</tbody>
+		</table>
+
+	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
+	</div>
 </body>
 </html>

@@ -91,9 +91,10 @@ http://www.templatemo.com/tm-475-holiday
 		<table border="1">
 		<thead>
 		<tr>
-			<th>Nama_pegawai</th>
-			<th>Alamat</th>
-			<th>Telp</th>
+			<th>ID Pegawai</th>
+			<th>Nama</th>
+			<th>ID Hotel</th>
+			<th>Hotel</th>
 		</tr>
 		</thead>
 		<tbody>

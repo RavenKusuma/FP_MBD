@@ -82,13 +82,15 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-	<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px" class="tm-red-text">Transaksi</span></h1>
-	<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Booking</span></h1>
-	<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Pegawai</span></h1>
-	<h1 style="font-size: 20px"  class="tm-red-text">Cara <span style="font-size: 20px"  class="tm-red-text">Bayar</span></h1>
-	<h1 style="font-size: 20px"  class="tm-red-text">Total <span style="font-size: 20px"  class="tm-red-text">Harga</span></h1>	
-	<h1 style="font-size: 20px"  class="tm-red-text">Tanggal <span style="font-size: 20px"  class="tm-red-text">Transaksi</span></h1>
-	<a href="bayar.php" class="tm-banner-link">BAYAR</a>
-	<a href="cekdiskon.php" class="tm-banner-link">CEK DISKON</a>
+	<div class="transaction" style="margin: auto;">
+		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px" class="tm-red-text">Transaksi</span></h1>
+		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Booking</span></h1>
+		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Pegawai</span></h1>
+		<h1 style="font-size: 20px"  class="tm-red-text">Cara <span style="font-size: 20px"  class="tm-red-text">Bayar</span></h1>
+		<h1 style="font-size: 20px"  class="tm-red-text">Total <span style="font-size: 20px"  class="tm-red-text">Harga</span></h1>	
+		<h1 style="font-size: 20px"  class="tm-red-text">Tanggal <span style="font-size: 20px"  class="tm-red-text">Transaksi</span></h1>
+		<a href="bayar.php" class="tm-banner-link">BAYAR</a>
+		<a href="cekdiskon.php" class="tm-banner-link">CEK DISKON</a>
+	</div>
 </body>
 </html>
