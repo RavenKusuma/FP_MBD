@@ -69,7 +69,7 @@
 			$query = "SELECT * FROM pelanggan WHERE username_pelanggan='$username' AND password_pelanggan='$password'";
 			$results = mysqli_query($db, $query);
 
-			if (mysqli_num_rows($results) == 1) {
+			if ($rows = $results->fetch_assoc()) {
 				if(!empty($_POST["remember"])) {
         			setcookie ("user_login",$_POST["username"],time()+ (10 * 365 * 24 * 60 * 60));
         			setcookie ("password",$_POST["password"],time()+ (10 * 365 * 24 * 60 * 60));
@@ -80,6 +80,7 @@
         			if(isset($_COOKIE["password"])) {
           				setcookie ("password","");
         			}
+        		$_SESSION['userid'] = $rows['id_pelanggan'];
      			}
 				$_SESSION['username'] = $username;
 				$_SESSION['success'] = "You are now logged in";
