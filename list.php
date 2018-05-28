@@ -43,8 +43,8 @@ http://www.templatemo.com/tm-475-holiday
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="index.php" class="active">Home</a></li>
-							<li><a href="about.php">About</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="about.php" class="active">About</a></li>
 							<li><a href="profil.php">Profil</a></li>
 							<li><a href="logout.php">Logout</a></li>
 						</ul>

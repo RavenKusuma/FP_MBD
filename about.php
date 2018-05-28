@@ -197,6 +197,7 @@ http://www.templatemo.com/tm-475-holiday
 				                <p class="tm-about-box-2-description gray-text">Kami juga menyediakan sebuah kolam renang yang mana kolam tersebut bisa digunakan oleh seluruh pengguna hotel</p>
 							</div>		                
 						</div>
+							<a href="list.php" class="tm-banner-link">LIST</a>
 					</div>
 					<div class="tm-testimonials-box">
 						<h3 class="tm-testimonials-title">Testimoni</h3>
@@ -219,6 +220,7 @@ http://www.templatemo.com/tm-475-holiday
 			</div>			
 		</div>
 	</section>
+
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
