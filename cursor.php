@@ -104,7 +104,7 @@ http://www.templatemo.com/tm-475-holiday
 		<tbody>
 
 		<?php
-		$sqli = "SELECT * FROM TRANSAKSI";
+		$sqli = "SELECT * FROM TYPE_KAMAR";
 		$query = mysqli_query($db, $sqli);
 
 		while($hotels = mysqli_fetch_array($query)){
