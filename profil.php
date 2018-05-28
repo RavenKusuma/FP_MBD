@@ -132,9 +132,45 @@ http://www.templatemo.com/tm-475-holiday
 	</div>
 
 	<div>
-		<input type="text" name="jumlah_kamar" placeholder="jumlah_kamar">
-		<a href="jumlah_booking.php" class="tm-banner-link">CEK JUMLAH BOOKING</a>
+		<form action="profil.php" method="get">
+		<input type="text" name="id_hotel" placeholder="id_hotel">
+		<button type="submit" name="Cek Kamar">Cek Booking</button>
+		</form>
 	</div>
+
+	<?php
+			if( isset($_GET['id_hotel']) ){
+
+			$usern = $_SESSION['username'];
+
+			$query = "SELECT id_pelanggan FROM pelanggan WHERE username_pelanggan='$usern'";
+
+			$results = mysqli_query($db, $query);
+
+			if ($rows = $results->fetch_assoc()) {
+				$temp = $rows['id_pelanggan'];
+      		}
+
+			// ambil id dari query string
+			$id = $_GET['id_hotel'];
+
+			// buat query hapus
+			$sql = "SELECT jumlah_booking_hotel('$temp','$id') AS jumlah_book";
+			$query = mysqli_query($db, $sql);
+
+			// apakah query hapus berhasil?
+
+			if( $rows = $query->fetch_assoc()){
+				echo   "<div> 
+							<h3> Jumlah Booking = $rows[jumlah_book]<h3>
+						</div>";
+			} else {
+				die("gagal query...");
+			}
+
+			}
+		?>
+
 	<a href="transaksi.php" class="tm-banner-link">TRANSAKSI</a>
 
 </body>

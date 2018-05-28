@@ -1,3 +1,8 @@
+<?php 
+
+	include('server.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -112,7 +117,7 @@ http://www.templatemo.com/tm-475-holiday
 
 			echo "<td>".$booking['NO_BOOKING']."</td>";
 			echo "<td>".$booking['ID_BOOKING']."</td>";
-			echo "<td>".$booking['NO_KAMAR]."</td>";
+			echo "<td>".$booking['NO_KAMAR']."</td>";
 			echo "<td>".$booking['ID_PEGAWAI']."</td>";
 			echo "<td>".$booking['ID_PELANGGAN']."</td>";
 			echo "<td>".$booking['TGL_CHECKIN']."</td>";

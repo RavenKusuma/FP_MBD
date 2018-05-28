@@ -1,6 +1,7 @@
 <?php 
 
 	include('server.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -124,9 +125,35 @@ http://www.templatemo.com/tm-475-holiday
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
 
 	<div>
-		<input type="text" name="jumlah_kamar" placeholder="jumlah_kamar">
-		<a href="jumlah_kamar.php" class="tm-banner-link">CEK JUMLAH KAMAR</a>
+		<form action="list.php" method="get">
+		<input type="text" name="id_hotel" placeholder="ID_HOTEL">
+		<button type="submit" name="Cek Kamar">Cek Kamar</button>
+		</form>
 	</div>
+
+		<?php
+			if( isset($_GET['id_hotel']) ){
+
+			// ambil id dari query string
+			$id = $_GET['id_hotel'];
+
+			// buat query hapus
+			$sql = "SELECT jumlah_kamar('$id') AS jumlah_kmr";
+			$query = mysqli_query($db, $sql);
+
+			// apakah query hapus berhasil?
+
+			if( $rows = $query->fetch_assoc()){
+				echo   "<div> 
+							<h3> Jumlah Kamar = $rows[jumlah_kmr]<h3>
+						</div>";
+			} else {
+				die("gagal query...");
+			}
+
+			}
+		?>
+
 	</div>
 </body>
 </html>
