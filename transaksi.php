@@ -90,6 +90,8 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 	<?php
+
+
 			$usern = $_SESSION['username'];
 			$query1 = "SELECT id_pelanggan FROM pelanggan WHERE pelanggan.`username_pelanggan` = '$usern'";
 			$results = $db->query($query1);
@@ -108,8 +110,8 @@ http://www.templatemo.com/tm-475-holiday
 						<h1 style='font-size: 20px'  class='tm-red-text'>Cara <span style='font-size: 20px'  class='tm-red-text'>Bayar : $row[CARA_PEMBAYARAN]</span></h1>
 						<h1 style='font-size: 20px'  class='tm-red-text'>Total <span style='font-size: 20px'  class='tm-red-text'>Harga : $row[TOTAL_HARGA]</span></h1>	
 						<h1 style='font-size: 20px'  class='tm-red-text'>Tanggal <span style='font-size: 20px'  class='tm-red-text'>Transaksi : $row[TGL_TRANSAKSI]</span></h1>
-						<a href='bayar.php' class='tm-banner-link'>BAYAR</a>
-						<a href='cekdiskon.php' class='tm-banner-link'>CEK DISKON</a>
+						<a href='bayar.php?=' class='tm-banner-link'>BAYAR</a>
+						<a href='cekdiskon.php?id_book=$row[ID_BOOKING]' class='tm-banner-link'>CEK DISKON</a>
 					</div>";
 			}
 	?>
