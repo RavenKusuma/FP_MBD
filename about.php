@@ -198,6 +198,8 @@ http://www.templatemo.com/tm-475-holiday
 							</div>		                
 						</div>
 							<a href="list.php" class="tm-banner-link">LIST</a>
+							<a href="cursor.php" <?php 	$sqli = "CALL T001_min();";
+		$query = mysqli_query($db, $sqli);?> class="tm-banner-link">CURSOR</a>
 					</div>
 					<div class="tm-testimonials-box">
 						<h3 class="tm-testimonials-title">Testimoni</h3>
