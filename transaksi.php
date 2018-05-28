@@ -1,3 +1,11 @@
+<?php 
+
+	include('server.php');
+
+	include('login_req.php');
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,16 +89,30 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
+	<?php
+			$usern = $_SESSION['username'];
+			$query1 = "SELECT id_pelanggan FROM pelanggan WHERE pelanggan.`username_pelanggan` = '$usern'";
+			$results = $db->query($query1);
+			#mysqli_query($db, $query1) or die(mysqli_error($db)); 
+			if($row = $results->fetch_assoc()){
+				$userid = $row['id_pelanggan'];
+			}
 
-	<div class="transaction" style="margin: auto;">
-		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px" class="tm-red-text">Transaksi</span></h1>
-		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Booking</span></h1>
-		<h1 style="font-size: 20px"  class="tm-red-text">ID <span style="font-size: 20px"  class="tm-red-text">Pegawai</span></h1>
-		<h1 style="font-size: 20px"  class="tm-red-text">Cara <span style="font-size: 20px"  class="tm-red-text">Bayar</span></h1>
-		<h1 style="font-size: 20px"  class="tm-red-text">Total <span style="font-size: 20px"  class="tm-red-text">Harga</span></h1>	
-		<h1 style="font-size: 20px"  class="tm-red-text">Tanggal <span style="font-size: 20px"  class="tm-red-text">Transaksi</span></h1>
-		<a href="bayar.php" class="tm-banner-link">BAYAR</a>
-		<a href="cekdiskon.php" class="tm-banner-link">CEK DISKON</a>
-	</div>
+			$query = "SELECT transaksi.* FROM transaksi JOIN bookings ON transaksi.`ID_BOOKING` = bookings.`ID_BOOKING` AND bookings.`ID_PELANGGAN` = '$userid'";
+	        $result = $db->query($query);
+	        while($row = $result->fetch_assoc()){
+				echo "<div class='transaction' style='margin: auto;'>
+						<h1 style='font-size: 20px'  class='tm-red-text'>ID <span style='font-size: 20px' class='tm-red-text'>Transaksi : $row[ID_TRANSAKSI]</span></h1>
+						<h1 style='font-size: 20px'  class='tm-red-text'>ID <span style='font-size: 20px'  class='tm-red-text'>Booking : $row[ID_BOOKING]</span></h1>
+						<h1 style='font-size: 20px'  class='tm-red-text'>ID <span style='font-size: 20px'  class='tm-red-text'>Pegawai : $row[ID_PEGAWAI]</span></h1>
+						<h1 style='font-size: 20px'  class='tm-red-text'>Cara <span style='font-size: 20px'  class='tm-red-text'>Bayar : $row[CARA_PEMBAYARAN]</span></h1>
+						<h1 style='font-size: 20px'  class='tm-red-text'>Total <span style='font-size: 20px'  class='tm-red-text'>Harga : $row[TOTAL_HARGA]</span></h1>	
+						<h1 style='font-size: 20px'  class='tm-red-text'>Tanggal <span style='font-size: 20px'  class='tm-red-text'>Transaksi : $row[TGL_TRANSAKSI]</span></h1>
+						<a href='bayar.php' class='tm-banner-link'>BAYAR</a>
+						<a href='cekdiskon.php' class='tm-banner-link'>CEK DISKON</a>
+					</div>";
+			}
+	?>
+	
 </body>
 </html>
