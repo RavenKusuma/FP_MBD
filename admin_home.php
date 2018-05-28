@@ -1,3 +1,10 @@
+<?php 
+
+	include('server.php');
+
+	include('login_req.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
