@@ -108,13 +108,12 @@
 		}
 
 		#$results = $db->query("SELECT kamar.NO_KAMAR FROM kamar JOIN hotels ON kamar.ID_HOTEL = hotels.ID_HOTEL JOIN type_kamar ON kamar.ID_TYPE_KAMAR = type_kamar.ID_TYPE_KAMAR AND hotels.ID_HOTEL = 'H003' AND type_kamar.ID_TYPE_KAMAR = 'T003'");
-
-		$query = "SELECT 'kamar.NO_KAMAR' FROM kamar JOIN hotels ON 'kamar.ID_HOTEL' = 'hotels.ID_HOTEL' AND 'hotels.ID_HOTEL' = $hotel";
+		
+		$query = "SELECT kamar.`NO_KAMAR` FROM kamar JOIN hotels ON kamar.`ID_HOTEL` = hotels.`ID_HOTEL` AND hotels.`ID_HOTEL` = '$hotel' AND kamar.`ID_TYPE_KAMAR` = '$kamar'";
 		$results = mysqli_query($db, $query);
 
-		while($rows = $results->fetch_assoc()){
-				$temp = $rows['kamar.NO_KAMAR'];
-				break;
+		if($rows = $results->fetch_assoc()){
+				$temp = $rows['NO_KAMAR'];
 		}
 
 		if (count($errors) == 0) {
@@ -129,7 +128,7 @@
 					  #VALUES('$temp1', 'B0$temp1', '$temp', '$username', '$checkindate', '$checkoutdate', 'ONGOING')";
 
 			$query2 = "INSERT INTO bookings (id_booking, no_kamar, id_pegawai, id_pelanggan, tgl_checkin, tgl_checkout, status_booking) 
-					  VALUES('B035', 'K003', 'P001', 'G031', '$checkindate', '$checkoutdate', 'ONGOING')";
+					  VALUES('B035', '$temp', 'P001', 'G001', '$checkindate', '$checkoutdate', 'ONGOING')";
 			mysqli_query($db, $query2) or die(mysqli_error($db));
 
 			$_SESSION['success'] = $temp;
