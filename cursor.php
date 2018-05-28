@@ -95,11 +95,10 @@ http://www.templatemo.com/tm-475-holiday
 		<table border="1">
 		<thead>
 		<tr>
-			<th>ID_BOOKING</th>
-			<th>ID_PEGAWAI</th>
-			<th>CARA_PEMBAYARAN</th>
-			<th>TOTAL_HARGA</th>
-			<th>TGL_TRANSAKSI</th>			
+			<th>ID_TYPE_KAMAR</th>
+			<th>DESKRIPSI_TYPE_KAMAR</th>
+			<th>HARGA_TYPE_KAMAR</th>
+		
 		</tr>
 		</thead>
 		<tbody>
@@ -112,11 +111,10 @@ http://www.templatemo.com/tm-475-holiday
 			#print_r($hotels);
 			echo "<tr>";
 
-			echo "<td>".$hotels['ID_BOOKING']."</td>";
-			echo "<td>".$hotels['ID_PEGAWAI']."</td>";
-			echo "<td>".$hotels['CARA_PEMBAYARAN']."</td>";
-			echo "<td>".$hotels['TOTAL_HARGA']."</td>";
-			echo "<td>".$hotels['TGL_TRANSAKSI']."</td>";
+			echo "<td>".$hotels['ID_TYPE_KAMAR']."</td>";
+			echo "<td>".$hotels['DESKRIPSI_TYPE_KAMAR']."</td>";
+			echo "<td>".$hotels['HARGA_TYPE_KAMAR']."</td>";
+
 
 			echo "</tr>";
 		}
@@ -125,13 +123,6 @@ http://www.templatemo.com/tm-475-holiday
 		</table>
 
 	<p>Total: <?php echo mysqli_num_rows($query) ?></p>
-
-	<div>
-		<form action="list.php" method="get">
-		<input type="text" name="id_hotel" placeholder="ID_HOTEL">
-		<button type="submit" name="Cek Kamar">Cek Kamar</button>
-		</form>
-	</div>
 
 		<?php
 			if( isset($_GET['id_hotel']) ){
