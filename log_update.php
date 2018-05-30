@@ -88,7 +88,7 @@ http://www.templatemo.com/tm-475-holiday
 		<h1>
 			LOG UPDATE
 		</h1>
-		<table border="table table-striped">
+		<table class="table table-striped">
 		<thead>
 		<tr>
 			<th>ID_BOOKING</th>

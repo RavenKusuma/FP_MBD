@@ -92,7 +92,7 @@ http://www.templatemo.com/tm-475-holiday
 		<h1>
 			Kamar Kosong
 		</h1>
-		<table border="table table-striped">
+		<table class="table table-striped">
 		<thead>
 		<tr>
 			<th>Nama Hotel</th>
