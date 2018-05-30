@@ -125,7 +125,7 @@ http://www.templatemo.com/tm-475-holiday
 			echo "<td>".$booking['STATUS_BOOKING']."</td>";
 			echo "<td>";
 
-			echo "<a href='booking.php?id=".$booking['ID_BOOKING']."'>CHECKOUT</a>";
+			echo "<a href='denda.php?id_booking=".$booking['ID_BOOKING']."'>CHECKOUT</a>";
 			echo "</td>";
 
 			echo "</tr>";
