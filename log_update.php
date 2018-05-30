@@ -84,11 +84,11 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-		<div class="content">
+		<div class="container">
 		<h1>
 			LOG UPDATE
 		</h1>
-		<table border="1">
+		<table border="table table-striped">
 		<thead>
 		<tr>
 			<th>ID_BOOKING</th>

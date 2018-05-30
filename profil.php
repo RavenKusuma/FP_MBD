@@ -87,11 +87,11 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 	
-	<div class="content">
+	<div class="container">
 		<h1>
 			List Booking
 		</h1>
-		<table border="1">
+		<table border="table table-striped">
 		<thead>
 		<tr>
 			<th>ID Pelanggan</th>

@@ -88,11 +88,11 @@ http://www.templatemo.com/tm-475-holiday
 		  </ul>
 		</div>	
 	</section>
-	<div class="content">
+	<div class="container">
 		<h1>
 			JOIN
 		</h1>
-		<table border="1">
+		<table class="table table-striped">
 		<thead>
 		<tr>
 			<th>NAMA_PELANGGAN</th>

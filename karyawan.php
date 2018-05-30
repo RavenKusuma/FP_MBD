@@ -17,6 +17,7 @@ http://www.templatemo.com/tm-475-holiday
   <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -84,11 +85,11 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-		<div class="content">
+		<div class="container">
 		<h1>
 			ISI LIST KARYAWAN
 		</h1>
-		<table border="1">
+		<table class="table table-striped">
 		<thead>
 		<tr>
 			<th>ID Pegawai</th>

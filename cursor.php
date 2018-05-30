@@ -88,11 +88,11 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
-	<div class="list_hotel" style="margin: auto;">
+	<div class="container">
 		<h1>
 			CURSOR
 		</h1>
-		<table border="1">
+		<table border="table table-striped">
 		<thead>
 		<tr>
 			<th>ID_TYPE_KAMAR</th>
